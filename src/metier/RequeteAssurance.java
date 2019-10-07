@@ -181,7 +181,7 @@ public class RequeteAssurance {
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (NumSecuException | ClientException e) {
-            e.getMessage();
+              System.out.println(e.getMessage());
         }
     }
 }
